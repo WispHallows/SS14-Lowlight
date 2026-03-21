@@ -4,10 +4,10 @@
   description: A valid pilot certification issued under GSC regulations.
   components:
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
-    state: paper
+    sprite: Objects/Misc/id_cards.rsi
+    heldPrefix: default
   - type: Item
-    size: Tiny
+    size: Small
   - type: Tag
     tags:
     - PilotLicense
