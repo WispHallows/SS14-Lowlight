@@ -4,7 +4,7 @@
   description: Certifies the holder is licensed to operate spacecraft.
   components:
   - type: Sprite
-    sprite: Objects/Misc/paper.rsi
+    sprite: Objects/Misc/bureaucracy.rsi
     state: paper
   - type: Item
     size: Tiny
