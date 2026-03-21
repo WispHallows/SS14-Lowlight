@@ -5,6 +5,6 @@
   description: A valid pilot certification issued under GSC regulations.
   components:
   - type: Sprite
-  sprite: Objects/Misc/bureaucracy.rsi
-  state: paper_words
-  type: Appearance
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: paper_words
+  - type: Appearance
