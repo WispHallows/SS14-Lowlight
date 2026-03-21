@@ -1,15 +1,18 @@
 - type: entity
+  parent: Clothing
   id: PilotLicense
-  parent: Paper
   name: pilot license
   description: A valid pilot certification issued under GSC regulations.
+  abstract: true
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
-    heldPrefix: default
-    state: icon
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Objects/Misc?id_cards.rsi
   - type: Item
     size: Small
-  - type: Tag
-    tags:
-    - PilotLicense
+    heldPrefix: default
+    storedRotation: -90
+  - type: IDCard
