@@ -10,3 +10,8 @@
 - type: traitCategory
   id: Quirks
   name: trait-category-quirks
+
+- type: traitCategory
+  id: Skills
+  name: trait-category-skills
+  maxTraitPoints: 10
