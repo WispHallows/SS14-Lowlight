@@ -1,11 +1,13 @@
 - type: entity
   id: PilotLicense
+  parent: Paper
   name: pilot license
   description: A valid pilot certification issued under GSC regulations.
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
     heldPrefix: default
+    state: icon
   - type: Item
     size: Small
   - type: Tag
