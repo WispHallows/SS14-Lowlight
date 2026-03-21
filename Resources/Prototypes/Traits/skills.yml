@@ -1,6 +1,6 @@
 - type: trait
   id: LicensedPilot
-  name: Licensed Pilot
-  description: You are certified to operate spacecraft.
+  name: trait-licensed-pilot-name
+  description: trait-licensed-pilot-desc
   category: Skills
   cost: 2
