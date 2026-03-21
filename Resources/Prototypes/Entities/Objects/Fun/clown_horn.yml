@@ -1,8 +1,8 @@
 - type: entity
-  name: clown horn
+  name: Clown Horn
   parent: BaseItem
   id: ClownHorn
-  description: It goes honk honk!
+  description: honk!
   components:
   - type: Sprite
     sprite: Objects/Fun/bikehorn.rsi
