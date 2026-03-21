@@ -1,7 +1,7 @@
 - type: entity
   id: PilotLicense
   name: pilot license
-  description: Certifies the holder is licensed to operate spacecraft.
+  description: A valid pilot certification issued under GSC regulations.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -11,5 +11,3 @@
   - type: Tag
     tags:
     - PilotLicense
-  - type: Examine
-    text: "A valid pilot certification issued under GSC regulations."
